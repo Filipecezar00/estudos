@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando imagens no fundo do meu site</title>
+</head>
+<body>
+
+    <style>
+        .quadrado {
+            border: 1px solid black;
+            width:300px;
+            height:300px;
+            display:inline-block;
+            border-radius: 10px;
+            background-color: lightgreen;
+            margin-right: 20px;
+           
+        }
+
+            
+             
+            nav{
+                text-align: center;
+                align-items: center;
+            }
+
+            body{
+                background-color: black;
+                background-image: url(wallpaper001.jpg);
+                
+            }
+
+
+                #q1{
+                    background-color: aqua;
+                    
+
+                }
+
+                #q2{
+                        background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(251, 255, 0) );
+                       
+
+                }
+                #q3{
+
+                        background-image: url(pattern001.png);
+                       
+
+                }
+
+                #q4{
+                    background-image: url(pattern003.png);
+                }
+
+                 div:hover{
+                    transform: translateX(10px);
+                    transform: translatey(10px);
+                    
+                }
+    </style>
+
+    
+    <nav> 
+    <div class="quadrado" id="q1"> 
+
+
+    </div>
+    <div class="quadrado" id="q2">
+
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+
+    <div class="quadrado" id="q4">
+
+
+    </div>
+</nav>
+</body>
+</html>
