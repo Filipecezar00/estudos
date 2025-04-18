@@ -1,4 +1,19 @@
 @charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*  fontes e seus códigos
+         font-family: "Passion One", sans-serif;
+         font-family: "Sriracha", cursive;
+          font-family: "Handlee", cursive;
+*/
+
+:root{
+--font1:"Passion One", sans-serif;
+--font2:"Sriracha", cursive;
+--font3:"Handlee", cursive;
+}
 
 * {
 margin: 0px;
@@ -9,6 +24,8 @@ padding: 0px;
  html,body{
     background-color: darkgray;
     min-height: 100vh;
+    font-family: var(--font1);
+    
 }
 
 
@@ -21,6 +38,7 @@ header{
     color: white;
     text-align: center;
     margin: 0px;
+   
     
    
 }
@@ -30,6 +48,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
 }
 
 section.imagem > p {
@@ -45,6 +64,7 @@ padding-top: 20px;
 padding-bottom:10px;
 margin: 0px;
 font-variant: small-caps;
+font-family: var(--font2);
 
 }
 
@@ -81,4 +101,5 @@ footer{
     text-align: center;
     color: white;
     padding: 5px;
+    
 }
