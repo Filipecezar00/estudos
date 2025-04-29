@@ -27,6 +27,7 @@ menu > ul {
     list-style-type: none;
 }
   
+
 menu > ul > li > a {
     display: block;
     padding: 10px;
@@ -35,6 +36,7 @@ menu > ul > li > a {
     color: white;
     text-align: center;
     border: 2px solid rgb(136, 134, 134);
+
 }
 
 menu > ul > li > a:hover{
